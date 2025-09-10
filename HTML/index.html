@@ -5,6 +5,45 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div>
+        <h1>Assignment Submission</h1>
+        <form action="/action_page.php" method="post" enctype="multipart/form-data">
+           
+              <label for="studentName">Student Name:</label>
+                <input type="text" id="studentName" name="studentName" placeholder="studentName" required></tr>
+            
+
+           <tr>
+                <label for="studentID">Student ID:</label>
+                <input type="text" id="studentID" name="studentID" required></tr>
+           
+</table>
+            
+                <label for="assignmentTitle">Assignment Title:</label>
+                <input type="text" id="assignmentTitle" name="assignmentTitle" required>
+           
+
+            
+                <label for="courseName">Course Name:</label>
+                <input type="text" id="courseName" name="courseName" required>
+           
+
+           
+                <label for="submissionDate">Submission Date:</label>
+                <input type="date" id="submissionDate" name="submissionDate" required>
+           
+
+            
+                <label for="assignmentFile">Upload Assignment File:</label>
+                <input type="file" id="assignmentFile" name="assignmentFile" accept=".pdf,.doc,.docx,.zip" required>
+          
+        
+                <label for="comments">Additional Comments (Optional):</label>
+                <textarea id="comments" name="comments"></textarea>
+           
+
+            <button type="submit">Submit Assignment</button>
+        </form>
+    </div>
 </body>
 </html>
